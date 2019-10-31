@@ -48,7 +48,6 @@ angular.module("app", ["angular-screenshot"])
 	<i ng-if="!appCtrl.isBasicOpen" class="material-icons">crop</i>
 	<i ng-if="appCtrl.isBasicOpen" class="material-icons">close</i>
 </button>
-<!--screenshot-->
 <screenshot is-open="appCtrl.isBasicOpen">
 	<div class="panel-body">
 		...
